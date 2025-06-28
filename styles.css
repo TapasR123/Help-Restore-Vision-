@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+}
+.story {
+    padding: 20px;
+}
+.story img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+.progress {
+    padding: 20px;
+}
+.progress-bar {
+    background-color: #ddd;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+.progress-fill {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+.donate {
+    background-color: #e0f7fa;
+    padding: 20px;
+}
+.donate-button {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+.donate-button:hover {
+    background-color: #005f8a;
+}
+.donate-button.stripe {
+    background-color: #635bff;
+}
+.donate-button.stripe:hover {
+    background-color: #5144cc;
+}
+.donate-button.razorpay {
+    background-color: #f37254;
+}
+.donate-button.razorpay:hover {
+    background-color: #c65339;
+}
+.social-share a {
+    margin: 0 10px;
+    color: #0077b6;
+    text-decoration: none;
+}
+.social-share a:hover {
+    text-decoration: underline;
+}
+.testimonial {
+    padding: 20px;
+    background-color: #fff3cd;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+@media screen and (max-width: 600px) {
+    .story img, video {
+        width: 90%;
+    }
+}
